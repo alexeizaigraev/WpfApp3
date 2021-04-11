@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="643.097" Width="800">
+    <Grid>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="308" Margin="44,87,0,0" VerticalAlignment="Top" Width="160" SelectionMode="Multiple"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="50" Margin="40,20,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="694"/>
+        <Button x:Name="ButtonOtborListDep" Content="select dep" HorizontalAlignment="Left" Margin="44,416,0,0" VerticalAlignment="Top" Width="160" Click="ButtonOtborListDep_Click"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="115" Margin="40,465,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="694"/>
+        <ListBox x:Name="listBoxPartners" HorizontalAlignment="Left" Height="308" Margin="246,87,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="ButtonPartners" Content="select partner" HorizontalAlignment="Left" Margin="246,416,0,0" VerticalAlignment="Top" Width="160" Click="ButtonPartner_Click"/>
+        <ListBox x:Name="listBoxSome" HorizontalAlignment="Left" Height="131" Margin="463,87,0,0" VerticalAlignment="Top" Width="114"/>
+        <Button x:Name="ButtonSome" Content="some" HorizontalAlignment="Left" Margin="463,234,0,0" VerticalAlignment="Top" Width="114" Click="ButtonSome_Click"/>
+        <ListBox x:Name="listBoxKabinet" HorizontalAlignment="Left" Height="124" Margin="463,278,0,0" VerticalAlignment="Top" Width="114"/>
+        <Button x:Name="ButtonKabinet" Content="kabinet" HorizontalAlignment="Left" Margin="463,416,0,0" VerticalAlignment="Top" Width="114" Click="ButtonKabinet_Click" RenderTransformOrigin="0.482,-0.107"/>
+        <ListBox x:Name="listBoxPeople" HorizontalAlignment="Left" Height="131" Margin="620,87,0,0" VerticalAlignment="Top" Width="114"/>
+        <Button x:Name="ButtonPeople" Content="people" HorizontalAlignment="Left" Margin="620,234,0,0" VerticalAlignment="Top" Width="114" Click="ButtonPeople_Click"/>
+        <ListBox x:Name="listBoxMonitor" HorizontalAlignment="Left" Height="126" Margin="620,276,0,0" VerticalAlignment="Top" Width="114"/>
+        <Button x:Name="ButtonMonitor" Content="monitor" HorizontalAlignment="Left" Margin="620,416,0,0" VerticalAlignment="Top" Width="114" Click="ButtonMonitor_Click"/>
+
+    </Grid>
+</Window>
